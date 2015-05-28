@@ -4,7 +4,7 @@ var mainmap = function(){
 	var map = new L.Map('map', {
 		center: [49.099831, -113.955406], //[48.888166, -113.730090], // Glacier 48.860392, -113.844073  | 48.922017,-113.7589293 | 48.859714, -113.769229
 		zoom: 16,
-		maxZoom: 19,
+		maxZoom: 18,
 		defaultExtentControl: true,
 	});
 
