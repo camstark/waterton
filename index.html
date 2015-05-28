@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<link rel="stylesheet" href="javascripts/extent/leaflet.defaultextent.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+	
+	<link rel="stylesheet" href="http://rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.min.css" />
+
+
+	<style>
+  #basemaps-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    background: white;
+    padding: 10px;
+  }
+  #basemaps {
+    margin-bottom: 5px;
+  }
+</style>
+	
+  </head>
+  <body>
+  
+	<div id="map"></div>
+	
+	<div id="basemaps-wrapper" class="leaflet-bar">
+  <select name="basemaps" id="basemaps">
+    <option value="http://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png">Topographic</options>
+    <option value="http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}">Imagery</option>
+	
+  </select>
+</div>
+          
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <script src="javascripts/waterton.js"></script>
+	
+	<script src="javascripts/extent/leaflet.defaultextent.js"></script>
+	
+	<script src="http://rawgithub.com/domoritz/leaflet-locatecontrol/gh-pages/dist/L.Control.Locate.min.js" ></script>
+
+
+	
+  </body>
+</html>
