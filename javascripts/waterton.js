@@ -43,7 +43,7 @@ lc =	L.control.locate({
 				markerStyle: {},
 				followCircleStyle: {},  // set difference for the style of the circle around the user's location while following
 				followMarkerStyle: {},
-				icon: 'fa fa-map-marker',  // class for icon, fa-location-arrow or fa-map-marker
+				icon: 'fa fa-location-arrow',  // class for icon, fa-location-arrow or fa-map-marker
 				iconLoading: 'fa fa-spinner fa-spin',  // class for loading icon
 				circlePadding: [0, 0], // padding around accuracy circle, value is passed to setBounds
 				metric: true,  // use metric or imperial units
